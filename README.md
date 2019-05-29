@@ -5,11 +5,11 @@
 4. For pre-processing we read the images in grayscale format for 2-D images rather than 3-D (if we read in RGB).
 5. We trained the model on images after resizing it to 32x32x1.
 6. The Basic Architecture of Project:
- 	Conv -> MaxPool -> Conv -> MaxPool -> Flatten -> Dense -> Dense ->O/P
+ 	6.a) Conv -> MaxPool -> Conv -> MaxPool -> Flatten -> Dense -> Dense ->O/P
 7. Due to some problems with my system i have used Theano Backend and Keras for the implementation.
 8. Accuracy:
-  Train(78,200 images) :96.2
-  Test  (13,800 images) :95.4 
+  a) Train(78,200 images) :96.2
+  b) Test  (13,800 images) :95.4 
 9. Some add-ons:
   One can add more layers.
   More epochs(8 used) can be used.
