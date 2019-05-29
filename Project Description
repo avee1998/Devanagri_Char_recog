@@ -1,0 +1,5 @@
+In this project we focus on predicting Hindi Alphabets of Devanagri dataset.
+The techniques used are Deep CNN for Neural networks for prediction and OpenCV for pre-processing of images.
+For pre-processing we read the images in grayscale format for 2-D images rather than 3-D if we read in RGB
+We train the model on every image after resizing it to 32x32x1.
+2 Convolution, 2 Dense layers are used after flattening.
