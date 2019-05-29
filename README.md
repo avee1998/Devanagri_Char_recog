@@ -5,7 +5,7 @@
 3. The techniques used are Deep Neural networks for prediction and OpenCV for pre-processing of images.
 4. For pre-processing we read the images in grayscale format for 2-D images rather than 3-D (if we read in RGB).
 5. We trained the model on images after resizing it to 32x32x1.
-6. The Basic Architecture of Project.
+6. The Basic Architecture of Project :
  	 Conv -> MaxPool -> Conv -> MaxPool -> Flatten -> Dense -> Dense ->O/P
 7. Due to some problems with my system i have used Theano Backend and Keras for the implementation.
 8. Accuracy:
